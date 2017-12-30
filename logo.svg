@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90" height="33" viewBox="0 0 132 33">
+  <defs>
+    <linearGradient id="logo-c" x1="94.685%" x2="2.641%" y1="-39.352%" y2="135.731%">
+      <stop offset="0%" stop-color="#F05746"/>
+      <stop offset="100%" stop-color="#EC1233"/>
+    </linearGradient>
+    <path id="logo-b" d="M116.254799,7.36757805 L116.237643,7.38488062 C116.23621,7.37780325 116.234769,7.37063917 116.233322,7.36338924 C116.211838,7.35917409 116.190992,7.35500831 116.170803,7.35090326 L116.221036,7.30064341 C115.984593,6.06937493 115.605746,2.71816176 117.139985,0.793273042 C118.276267,-0.39593451 120.14779,-0.192070358 120.715931,1.03111455 C121.141239,1.94678459 120.761224,2.69108814 120.543268,3.00745702 C120.854448,2.78586609 121.586543,2.39951482 122.487194,2.83191456 C123.690316,3.40952966 123.857417,5.3462391 122.687715,6.46749193 C120.761194,7.99457212 117.494734,7.60796746 116.254799,7.36757805 Z"/>
+    <filter id="logo-a" width="287.1%" height="284.3%" x="-93.6%" y="-65.8%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.226589073   0 0 0 0 0.226589073   0 0 0 0 0.226589073  0 0 0 0.5 0"/>
+    </filter>
+    <path id="logo-e" d="M122.81129,15.3979537 C123.048383,14.6471413 123.813362,12.5442914 125.3028,11.8743903 C126.300845,11.5377244 127.332158,12.2447228 127.298889,13.1200542 C127.270236,13.8739589 126.698659,14.1783327 126.540631,14.2482708 C126.749302,14.2100404 127.356914,14.158393 127.764643,14.7360505 C128.296934,15.4430489 127.83118,16.5877129 126.799867,16.8907123 C125.202996,17.1937116 123.373248,15.9143811 122.774421,15.4093823 L122.81129,15.3979537 Z"/>
+    <filter id="logo-d" width="368.6%" height="372%" x="-134.3%" y="-97.1%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.226589073   0 0 0 0 0.226589073   0 0 0 0 0.226589073  0 0 0 0.5 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-1 2)">
+    <text fill="#FFF" font-family="billy" font-size="52" font-weight="400">
+      <tspan x="0" y="33">L&apos;amour</tspan>
+    </text>
+    <g fill-rule="nonzero">
+      <use fill="#000" filter="url(#logo-a)" xlink:href="#logo-b"/>
+      <use fill="url(#logo-c)" fill-rule="evenodd" xlink:href="#logo-b"/>
+    </g>
+    <g fill-rule="nonzero" transform="rotate(-22 125.38 14.363)">
+      <use fill="#000" filter="url(#logo-d)" xlink:href="#logo-e"/>
+      <use fill="url(#logo-c)" fill-rule="evenodd" xlink:href="#logo-e"/>
+    </g>
+  </g>
+</svg>
