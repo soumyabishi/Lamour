@@ -108,3 +108,29 @@ h1 span{
     top: -350px;
     left: 650px;
 }
+
+
+ul.social-icons{
+    margin-top: 40px;
+    margin-left: 8px;
+}
+
+ul.social-icons li{
+    display: inline-block;
+    list-style: none;
+
+}
+
+ul.social-icons li a{
+    margin-right: 18px;
+    font-size: 22px;
+    color: #fff;
+    opacity: 0.8;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+ul.social-icons li a:hover{
+    opacity: 1;
+}
