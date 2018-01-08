@@ -48,6 +48,10 @@ body{
     font-family: IBM Plex Sans;
     background: #3A3A3A url(bg.jpg) no-repeat fixed;
     overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .logo{
@@ -101,6 +105,15 @@ h1 span{
     font-weight: 500;
     font-size: 14px;
     margin-top: 30px;
+    color: #fff;
+    transition:all 0.3s ease;
+    -webkit-transition:all 0.3s ease;
+    -moz-transition:all 0.3s ease;
+
+}
+
+.button:hover{
+    box-shadow: 0 11px 36px 0 #353434;
 }
 .mobile{
     position: absolute;
